@@ -60,7 +60,7 @@
         </option>
         <option>
           <name>FPU</name>
-          <version>2</version>
+          <version>3</version>
           <state>5</state>
         </option>
         <option>
@@ -87,7 +87,7 @@
         </option>
         <option>
           <name>OGLastSavedByProductVersion</name>
-          <state>7.30.1.7765</state>
+          <state>7.30.4.8186</state>
         </option>
         <option>
           <name>GeneralEnableMisra</name>
@@ -297,11 +297,11 @@
         </option>
         <option>
           <name>CCIncludePath2</name>
-          <state>$PROJ_DIR$\..\..\..\..\Huawei_LiteOS\platform\bsp\sample\config\include</state>
-          <state>$PROJ_DIR$\..\..\..\..\Huawei_LiteOS\platform\bsp\sample\config</state>
-          <state>$PROJ_DIR$\..\..\..\..\Huawei_LiteOS\platform\cpu\arm\cortex-m4</state>
-          <state>$PROJ_DIR$\..\..\..\..\Huawei_LiteOS\kernel\include</state>
-          <state>$PROJ_DIR$\..\..\..\..\Huawei_LiteOS\kernel\base\include</state>
+          <state>$PROJ_DIR$\..\..\..\..\kernel\base\include</state>
+          <state>$PROJ_DIR$\..\..\..\..\platform\bsp\sample\config</state>
+          <state>$PROJ_DIR$\..\..\..\..\platform\cpu\arm\cortex-m4</state>
+          <state>$PROJ_DIR$\..\..\..\..\kernel\include</state>
+          <state>$PROJ_DIR$\..\..\..\..\kernel\base\core</state>
         </option>
         <option>
           <name>CCStdIncCheck</name>
@@ -615,6 +615,7 @@
       <data>
         <extensions></extensions>
         <cmdline></cmdline>
+        <hasPrio>0</hasPrio>
       </data>
     </settings>
     <settings>
@@ -1005,7 +1006,7 @@
         </option>
         <option>
           <name>FPU</name>
-          <version>2</version>
+          <version>3</version>
           <state>0</state>
         </option>
         <option>
@@ -1556,6 +1557,7 @@
       <data>
         <extensions></extensions>
         <cmdline></cmdline>
+        <hasPrio>0</hasPrio>
       </data>
     </settings>
     <settings>
@@ -1895,49 +1897,49 @@
       <group>
         <name>base</name>
         <file>
-          <name>$PROJ_DIR$\..\..\..\..\Huawei_LiteOS\kernel\base\ipc\los_event.c</name>
+          <name>$PROJ_DIR$\..\..\..\..\kernel\base\ipc\los_event.c</name>
         </file>
         <file>
-          <name>$PROJ_DIR$\..\..\..\..\Huawei_LiteOS\kernel\base\mem\los_membox.c</name>
+          <name>$PROJ_DIR$\..\..\..\..\kernel\base\mem\los_membox.c</name>
         </file>
         <file>
-          <name>$PROJ_DIR$\..\..\..\..\Huawei_LiteOS\kernel\base\mem\los_memory.c</name>
+          <name>$PROJ_DIR$\..\..\..\..\kernel\base\mem\los_memory.c</name>
         </file>
         <file>
-          <name>$PROJ_DIR$\..\..\..\..\Huawei_LiteOS\kernel\base\mem\los_memstat.c</name>
+          <name>$PROJ_DIR$\..\..\..\..\kernel\base\mem\los_memstat.c</name>
         </file>
         <file>
-          <name>$PROJ_DIR$\..\..\..\..\Huawei_LiteOS\kernel\base\misc\los_misc.c</name>
+          <name>$PROJ_DIR$\..\..\..\..\kernel\base\misc\los_misc.c</name>
         </file>
         <file>
-          <name>$PROJ_DIR$\..\..\..\..\Huawei_LiteOS\kernel\base\mem\los_multipledlinkhead.c</name>
+          <name>$PROJ_DIR$\..\..\..\..\kernel\base\mem\los_multipledlinkhead.c</name>
         </file>
         <file>
-          <name>$PROJ_DIR$\..\..\..\..\Huawei_LiteOS\kernel\base\ipc\los_mux.c</name>
+          <name>$PROJ_DIR$\..\..\..\..\kernel\base\ipc\los_mux.c</name>
         </file>
         <file>
-          <name>$PROJ_DIR$\..\..\..\..\Huawei_LiteOS\kernel\base\core\los_priqueue.c</name>
+          <name>$PROJ_DIR$\..\..\..\..\kernel\base\core\los_priqueue.c</name>
         </file>
         <file>
-          <name>$PROJ_DIR$\..\..\..\..\Huawei_LiteOS\kernel\base\ipc\los_queue.c</name>
+          <name>$PROJ_DIR$\..\..\..\..\kernel\base\ipc\los_queue.c</name>
         </file>
         <file>
-          <name>$PROJ_DIR$\..\..\..\..\Huawei_LiteOS\kernel\base\ipc\los_sem.c</name>
+          <name>$PROJ_DIR$\..\..\..\..\kernel\base\ipc\los_sem.c</name>
         </file>
         <file>
-          <name>$PROJ_DIR$\..\..\..\..\Huawei_LiteOS\kernel\base\core\los_swtmr.c</name>
+          <name>$PROJ_DIR$\..\..\..\..\kernel\base\core\los_swtmr.c</name>
         </file>
         <file>
-          <name>$PROJ_DIR$\..\..\..\..\Huawei_LiteOS\kernel\base\core\los_sys.c</name>
+          <name>$PROJ_DIR$\..\..\..\..\kernel\base\core\los_sys.c</name>
         </file>
         <file>
-          <name>$PROJ_DIR$\..\..\..\..\Huawei_LiteOS\kernel\base\core\los_task.c</name>
+          <name>$PROJ_DIR$\..\..\..\..\kernel\base\core\los_task.c</name>
         </file>
         <file>
-          <name>$PROJ_DIR$\..\..\..\..\Huawei_LiteOS\kernel\base\core\los_tick.c</name>
+          <name>$PROJ_DIR$\..\..\..\..\kernel\base\core\los_tick.c</name>
         </file>
         <file>
-          <name>$PROJ_DIR$\..\..\..\..\Huawei_LiteOS\kernel\base\core\los_timeslice.c</name>
+          <name>$PROJ_DIR$\..\..\..\..\kernel\base\core\los_timeslice.c</name>
         </file>
       </group>
     </group>
@@ -1946,25 +1948,25 @@
       <group>
         <name>bsp</name>
         <file>
-          <name>$PROJ_DIR$\..\..\..\..\Huawei_LiteOS\platform\bsp\sample\config\los_config.c</name>
+          <name>$PROJ_DIR$\..\..\..\..\platform\bsp\sample\config\los_config.c</name>
         </file>
       </group>
       <group>
         <name>cpu</name>
         <file>
-          <name>$PROJ_DIR$\..\..\..\..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_dispatch.s</name>
+          <name>$PROJ_DIR$\..\..\..\..\platform\cpu\arm\cortex-m4\los_dispatch.s</name>
         </file>
         <file>
-          <name>$PROJ_DIR$\..\..\..\..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_hw.c</name>
+          <name>$PROJ_DIR$\..\..\..\..\platform\cpu\arm\cortex-m4\los_hw.c</name>
         </file>
         <file>
-          <name>$PROJ_DIR$\..\..\..\..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_hw_tick.c</name>
+          <name>$PROJ_DIR$\..\..\..\..\platform\cpu\arm\cortex-m4\los_hw_tick.c</name>
         </file>
         <file>
-          <name>$PROJ_DIR$\..\..\..\..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_hwi.c</name>
+          <name>$PROJ_DIR$\..\..\..\..\platform\cpu\arm\cortex-m4\los_hwi.c</name>
         </file>
         <file>
-          <name>$PROJ_DIR$\..\..\..\..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_vendor.s</name>
+          <name>$PROJ_DIR$\..\..\..\..\platform\cpu\arm\cortex-m4\los_vendor.s</name>
         </file>
       </group>
     </group>
